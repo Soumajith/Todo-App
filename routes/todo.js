@@ -1,6 +1,6 @@
-import { router as router } from "express";
+const express = require("express");
 
-const router = router();
+const router = express.Router();
 
 const { createTodo } = require("../controllers/createTodo");
 

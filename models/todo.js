@@ -1,6 +1,6 @@
-import mongoose, { Schema, model } from "mongoose";
+const mongoose = require("mongoose");
 
-const todoSchema = new Schema({
+const todoSchema = new mongoose.Schema({
   title: {
     type: String,
     required: true,
